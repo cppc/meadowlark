@@ -7,6 +7,6 @@ var fortunes = [
 ];
 
 exports.getFortune = function() {
-	varx idx = Math.floor(Math.random() * fortunes.length);
+	var idx = Math.floor(Math.random() * fortunes.length);
 	return fortunes[idx];
 }
